@@ -20,7 +20,7 @@ Light-weight sample to show how to use the AWS Serverless Application Model (AWS
     ... arn:aws:lambda:AWS_REGION:ACCOUNT_ID:function:PostPetFunction/invocations
     ... arn:aws:lambda:AWS_REGION:ACCOUNT_ID:function:GetPetFunction/invocations
     ```
-3. Replace UNIQUE_NAME deploy.sh and remove.sh files with some unique name.
+3. Replace UNIQUE_NAME on deploy.sh and on remove.sh files with some unique name.
     ```
     BUCKET="pet-store-api-deployment-workspace-UNIQUE_NAME"
     ```
@@ -47,3 +47,4 @@ Light-weight sample to show how to use the AWS Serverless Application Model (AWS
     > ...
     > remove_bucket: pet-store-api-deployment-workspace-UNIQUE_NAME
     ```
+
